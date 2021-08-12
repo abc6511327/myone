@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>task1</title>
+		<!--或者通过link链接单独放置css代码-->
+		<style type="text/css">
+			.clear{
+				width: 1000px;
+				height: 1000px;
+				/*border: 1px solid red;*/
+			}
+			.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+				width: 300px;
+				height:300px;
+				margin: 10px;
+				border-radius: 10px;
+				background-color: orange;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="clear">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+			<div class="box5"></div>
+			<div class="box6"></div>
+			<div class="box7"></div>
+			<div class="box8"></div>
+			<div class="box9"></div>
+		</div>
+	</body>
+</html>
