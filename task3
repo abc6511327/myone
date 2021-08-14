@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.bigbox{
+				width: 638px;
+				height: 1009px;
+				background-color: #68cdd5;
+				/*border: 1px solid red;*/
+				margin: auto;
+			}
+			.arrow{
+				height: 118px;
+				/*border:1px solid red;*/
+				background: url(img/task3_03.png);
+				background-repeat: no-repeat;
+				margin-left: 18px;
+			}
+			.box1{
+				background: url(img/task3_06.png);
+				width: 183px;
+				height: 71px;
+				/*border: 1px solid red;*/
+				margin: 0px 450px 0px 204px;
+				background-repeat: no-repeat;
+				padding-top: 23px;
+				
+			}
+			.box1>h1,p{
+				text-indent: 72px;
+				margin: 0px;
+				color: white;
+			}
+			p{
+				font-size: 5px;
+				color:#eaf8f9;
+			}
+			.box2{
+				width: 447px;
+				height: 192px;
+				/*border: 1px solid red;*/
+				margin: 103px 96px 0px 95px;
+			}
+			.box2>p{
+				color: #eaf8f9;
+				line-height: 50px;
+				font-size: 29px;
+				text-indent: -1px;
+			}
+			.box3,.box4{
+				width: 317px;
+				height: 323px;
+				margin-top: 174px;
+				/*border: 1px solid red;*/
+			
+			}
+			.box3{
+				background: url(img/task3_10.png);
+				background-repeat: no-repeat;
+				float: left;
+				background-position: 118px 0px;
+			}
+			.box3>p{
+				margin: 105px 0px 0px 26px;
+				font-size: 23px;
+			}
+			.box4{
+				background: url(img/task3_13.jpg);
+				background-repeat: no-repeat;
+				float: right;
+				background-position: 118px 0px;
+			}
+			.box4>p{
+				margin: 100px 0px 0px 45px;
+				font-size: 23px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bigbox">
+			 <div class="arrow"></div>
+			 <div class="box1">
+			     <h1>葡萄藤</h1>
+			     <p>www.ptteng.com</p>
+			 </div>
+			 <div class="box2">
+			    <p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。</p>
+		   	 </div>
+			 <div class="box3">
+			     <p>290560933</p>
+		     </div>
+		     <div class="box4">
+			     <p>BJPTTeng</p>
+			 </div>
+		</div>
+	</body>
+</html>
